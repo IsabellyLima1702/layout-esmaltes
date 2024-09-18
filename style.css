@@ -1,87 +1,89 @@
-/*RESET*/
+   /* reset */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-a{
+ }
+ a{
     text-decoration: none;
     color: inherit;
-}
-ul, ol, li{
+ }
+ ul, ol,li{
     list-style: none;
-}
-/*FIM DO RESET*/
-
-body{
+ }
+ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
     background-color: rgb(247, 166, 174);
-    
-}
-header{
+ }
+ 
+ header{
     height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.logo{
-    height: 96px;
-    width: 96px;
-    background-color: lightgrey;
-}
-.menu ul{
-    display:flex;
+ }
+ .logo{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://colorama.fiestafactorydirect.com/img/logo.png);
+ }
+ .menu ul{
+    display: flex;
     gap: 32px;
     font-size: 32px;
-}
-main{
+ }
+ main{
     flex-grow: 1;
     display: flex;
-}
-.conteudo{
+ }
+ .conteudo{
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.conteudo h1{
+ }
+ .conteudo h1{
     font-size: 96px;
-}
-.conteudo p{
-    width: 80%;
+ }
+ .conteudo p{
     font-size: 40px;
-}
-.acao button{
+    width: 80%;;
+ }
+ .ação button{
     height: 80px;
     width: 300px;
     background-color: black;
     color: white;
     font-size: 32px;
-}
-.social{
+ }
+ .social {
     width: 80%;
     display: flex;
     justify-content: space-between;
-}
-.social div{
-    height:96px;
+ }
+ .social div{
+    height: 96px;
     width: 96px;
     background-color: lightgray;
     border-radius: 50%;
-
-}
-.destaque{
-    width: 50%;
-    background-color: lightgray;
-}
-footer{
+ }
+ .destaque{
+    width: 60%;
+    background-image: url(https://gkpb.com.br/wp-content/uploads/2023/05/colorama-fini.jpg);
+    background-repeat: no-repeat;
+ }
+ .destaque img{
+    height: 900%;
+    width: 800%;
+ 
+ }
+ footer{
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+ }
  
-}
-
