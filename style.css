@@ -1,7 +1,7 @@
    /* reset */
 *{
     padding: 0;
-    margin: 0;
+    margin: 5px;
     box-sizing: border-box;
  }
  a{
@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
-    background-color: rgb(247, 166, 174);
+    background-color:  rgb(254, 213, 141);;
  }
  
  header{
@@ -26,9 +26,9 @@
     align-items: center;
  }
  .logo{
-    height: 300px;
-    width: 300px;
-    background-image: url(https://colorama.fiestafactorydirect.com/img/logo.png);
+    height: 600px;
+    width: 630px;
+    background-image: url(https://www.colorama.swiss/pages/img/favicons/colorama/facebook.png);
  }
  .menu ul{
     display: flex;
@@ -76,9 +76,25 @@
     background-repeat: no-repeat;
  }
  .destaque img{
-    height: 900%;
-    width: 800%;
- 
+    height: 1000%;
+    width: 900%;
+ }
+ .social div{
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+ }
+ .insta{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/017/743/717/large_2x/instagram-icon-logo-free-png.png);
+ }
+ .whatsApp{
+    background-image: url(https://img.freepik.com/free-vector/modern-whatsapp-logo_1035-8973.jpg?semt=ais_hybrid);
+ }
+ .face{
+    background-image: url(https://cdn.pixabay.com/photo/2021/06/15/12/51/facebook-6338507_1280.png);
  }
  footer{
     height: 100px;
