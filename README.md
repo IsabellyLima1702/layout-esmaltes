@@ -2,9 +2,9 @@
 # layout-esmaltes
 # layout-esmaltes
 
-# Galeria de flores
+# Layout de esmaltes
 ---
-# Galeria
+# Layout
 ![](./img/Captura%20de%20Tela%202024-10-02%20%C3%A0s%2014.00.20.png)
 
 ---
